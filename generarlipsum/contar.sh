@@ -3,6 +3,6 @@
 for file in loremipsum-*.txt
 
 do 
-    lines = $(wc -1 < "$file")
+    lines = $ wc -l $file
     echo "$file tiene $lines lineas"
 done
